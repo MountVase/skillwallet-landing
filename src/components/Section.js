@@ -1,9 +1,9 @@
-import React from "react";
-import styled from "styled-components";
-import { Heading, Text } from "styled-typography";
-import Pulse from "react-reveal/Pulse";
+import React from 'react'
+import styled from 'styled-components'
+import { Heading, Text } from 'styled-typography'
+import Pulse from 'react-reveal/Pulse'
 
-import PhoneAnimation from "./PhoneAnimation";
+import PhoneAnimation from './PhoneAnimation'
 
 const Container = styled.div`
   display: flex;
@@ -12,7 +12,7 @@ const Container = styled.div`
 
   justify-content: space-between;
   align-items: center;
-`;
+`
 
 const Section = () => {
   return (
@@ -26,7 +26,7 @@ const Section = () => {
         </Text>
       </Container>
     </Pulse>
-  );
-};
+  )
+}
 
-export default Section;
+export default Section

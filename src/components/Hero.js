@@ -1,11 +1,11 @@
-import React from "react";
-import styled from "styled-components";
-import { Heading, Text } from "styled-typography";
-import Fade from "react-reveal/Fade";
+import React from 'react'
+import styled from 'styled-components'
+import { Heading, Text } from 'styled-typography'
+import Fade from 'react-reveal/Fade'
 
-import music from "../assets/music.svg";
-import app_store from "../assets/app_store.svg";
-import play_store from "../assets/play_store.svg";
+import music from '../assets/music.svg'
+import app_store from '../assets/app_store.svg'
+import play_store from '../assets/play_store.svg'
 
 const Container = styled.div`
   display: flex;
@@ -15,7 +15,7 @@ const Container = styled.div`
   margin-top: 15vh;
 
   justify-content: space-between;
-`;
+`
 
 const LeftSide = styled.div`
   display: flex;
@@ -25,18 +25,18 @@ const LeftSide = styled.div`
   margin-top: 4vh;
   flex-direction: column;
   justify-content: space-between;
-`;
+`
 
 const Buttons = styled.div`
   display: flex;
   justify-content: space-around;
-`;
+`
 
 const Logo = styled.img`
   display: flex;
   width: 30vw;
   height: 48vh;
-`;
+`
 
 const Hero = () => {
   return (
@@ -45,10 +45,7 @@ const Hero = () => {
         <Heading>Skillwallet</Heading>
 
         <Fade bottom>
-          <Text>
-            A new kind of identity. Enabling new people to use old technology,
-            without rambling their words.
-          </Text>
+          <Text>A new kind of identity. Enabling new people to use old technology, without rambling their words.</Text>
           <Text>Creating css is the new manual labour.</Text>
         </Fade>
         <Buttons>
@@ -62,7 +59,7 @@ const Hero = () => {
         <Logo src={music} />
       </Fade>
     </Container>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

@@ -1,9 +1,9 @@
 import React from 'react'
-import styled from "styled-components";
-import { Heading, Text } from "styled-typography";
-import Pulse from "react-reveal/Pulse";
+import styled from 'styled-components'
+import { Heading, Text } from 'styled-typography'
+import Pulse from 'react-reveal/Pulse'
 
-import panda from "../assets/panda.png"
+import panda from '../assets/panda.png'
 
 const Container = styled.div`
   display: flex;
@@ -20,18 +20,17 @@ const Image = styled.img`
 `
 
 const OtherSection = () => {
-
   return (
     <Pulse>
-    <Container>
-      <Text>
-      Hey. there's more here. On the 30th of September we dined together at the Mitre. <br />
+      <Container>
+        <Text>
+          Hey. there's more here. On the 30th of September we dined together at the Mitre. <br />
           Just lose it, go crazy, oh heyhey.
-      </Text>
+        </Text>
 
-     <Image src={panda} />
-    </Container>
-    </Pulse> 
+        <Image src={panda} />
+      </Container>
+    </Pulse>
   )
 }
 
